@@ -1,0 +1,56 @@
+{
+  "name": "websocket-tarantool-driver",
+  "version": "0.0.0",
+  "description": "Websocket Tarantool driver for 1.7+",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "./node_modules/.bin/webpack",
+    "web": "node web",
+    "wsproxy": "./node_modules/.bin/ws-to-tcp --from 8080 --to 33013"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KlonD90/websocket-tarantool-driver.git"
+  },
+  "keywords": [
+    "tarantool",
+    "driver",
+    "db",
+    "msgpack",
+    "websocket"
+  ],
+  "author": "KlonD90",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KlonD90/websocket-tarantool-driver/issues"
+  },
+  "homepage": "https://github.com/KlonD90/websocket-tarantool-driver",
+  "dependencies": {
+    "blob-to-buffer": "^1.2.8",
+    "buffer": "^5.2.1",
+    "crypto-js": "^3.1.9-1",
+    "debug": "^2.6.8",
+    "denque": "^1.2.1",
+    "eventemitter3": "^3.1.0",
+    "lodash": "^4.17.4",
+    "msgpack-lite": "^0.1.20",
+    "to-arraybuffer": "^1.0.1",
+    "util.inherits": "^1.0.3"
+  },
+  "devDependencies": {
+    "benchmark": "^2.1.0",
+    "chai": "^4.1.0",
+    "coveralls": "^2.13.1",
+    "eslint": "^2.5.3",
+    "express": "^4.16.3",
+    "ioredis": "^3.1.2",
+    "istanbul": "^0.4.5",
+    "mocha": "^2.2.4",
+    "nanotimer": "^0.3.14",
+    "sinon": "^3.0.0",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.1",
+    "ws": "^6.0.0",
+    "ws-to-tcp": "^1.0.0"
+  }
+}
